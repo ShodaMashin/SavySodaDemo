@@ -1,0 +1,28 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.game-box {
+    max-width: 500px;
+    box-shadow: 1px 1px 5px #606060;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.game-header {
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid #606060;
+}
+

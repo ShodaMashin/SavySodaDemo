@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Moment from 'react-moment';
 
 export class Games extends Component {
   static displayName = Games.name;
@@ -24,17 +25,19 @@ export class Games extends Component {
                       </div>
                       <div className='row'>
                           <div className='col game-header text-center'>
-                              {game.releaseDate}
+                              <Moment format="DD/MM/YYYY">
+                                  {game.releaseDate}
+                              </Moment>
                           </div>
                           <div className='col game-header text-center'>
                               {game.genre}
                           </div>
                       </div>
                       <div className='row'>
-                          <div className='col'>
+                          <div className='col game-img text-center'>
                               <img height='300px' src={game.imageUrl}/>
                           </div>
-                          <div className='col'>
+                          <div className='col game-desc'>
                               {game.description}
                           </div>
                       </div>

@@ -26,3 +26,13 @@ code {
     border: 1px solid #606060;
 }
 
+.game-img{
+    padding: 5px;
+    border: 1px solid #606060;
+    background-color: #606060;
+}
+
+.game-desc{
+    padding: 5px;
+    border: 1px solid #606060;
+}
